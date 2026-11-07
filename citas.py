@@ -10,7 +10,7 @@ class SistemaCitas:
         horario = (fecha, hora)
 
         if horario in self.citas:
-            return False
+            return True
 
         self.citas[horario] = paciente
         return True
